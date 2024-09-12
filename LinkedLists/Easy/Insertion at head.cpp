@@ -11,7 +11,7 @@ struct Node {
 class Solution {
   public:
     Node *insertAtHead(Node *head, int x) {
-        Node* new_node = new Node(x,head);
+        Node* temp = new Node(x,head);
         return temp;
       //or
       // return Node* new_node = new Node(x,head);
